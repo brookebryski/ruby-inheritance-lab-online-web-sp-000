@@ -5,11 +5,11 @@ class Student < User
   end
 
   def learn(str)
-    str << @knowledge
+    @knowledge.push("str")
   end
 
   def knowledge
-
+    @knowledge
   end
 
 end
