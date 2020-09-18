@@ -4,8 +4,8 @@ class Student < User
     @knowledge = []
   end
 
-  def learn(str)
-    @knowledge.push("str")
+  def learn(" ")
+    @knowledge.push(" ")
   end
 
   def knowledge
